@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbits</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./orbits.css">
+</head>
+<body>
+    <div id="view"></div>
+    <div id="cross-horizontal"></div>
+    <div id="cross-vertical"></div>
+    <pre id="debug"></pre>
+    <div id="controls">
+        <p>
+            Speed coef : <input type="number" id="orbiter-coef" step="0.2" />
+            </br>(accelerate time by 1.5^coef)
+        </p>
+        <p>
+            <button id="orbiter-pause">Pause</button> (also space key)
+        </p>
+    </div>
+    <pre id="infos">Click element to display infos</pre>
+    <script type="text/javascript" src="./math.js"></script>
+    <script type="text/javascript" src="./ecs.js"></script>
+    <script type="text/javascript" src="./orbits.js"></script>
+</body>
+</html>

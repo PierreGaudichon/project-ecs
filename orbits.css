@@ -1,0 +1,52 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+#view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0;
+    width: 0;
+}
+
+#debug {
+    display: table;
+    background-color: #D3D3D3;
+}
+
+#controls {
+    display: table;
+    background-color: #87CEEB;
+}
+
+#infos {
+    display: table;
+    background-color: #191970;
+    color: white;
+}
+
+#cross-horizontal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+#cross-vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+
+.entity-view {
+    position: absolute;
+}
